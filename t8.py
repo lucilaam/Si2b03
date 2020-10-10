@@ -19,7 +19,7 @@ def nao_entre_em_panico():
                 ehprimo = 0
                 break
         if (ehprimo):
-            primos = primo + str(numero)+ ","
+            primos = primos + str(numero)+ ","
             p+= 1
             if(p % 10 ==0):
                primos = primos+ "<br>"
